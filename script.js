@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você mora em uma pequena cidade próxima a uma extensa área de floresta tropical. Nos últimos meses, tem notado um aumento alarmante no desmatamento ilegal na região. As árvores centenárias estão sendo derrubadas, e a vida selvagem que antes era abundante está diminuindo rapidamente. Preocupado com o futuro da floresta e seus impactos, você decide agir."
+        enunciado: "Você mora em uma pequena cidade próxima a uma extensa área de floresta tropical. Nos últimos meses, tem notado um aumento alarmante no desmatamento ilegal na região. As árvores centenárias estão sendo derrubadas, e a vida selvagem que antes era abundante está diminuindo rapidamente. Preocupado com o futuro da floresta e seus impactos, você decide agir.",
         alternativas: [
             {
                 texto: "Muito ruim!",
@@ -19,12 +19,11 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Você percebe movimentos suspeitos de caminhões carregados de madeira que passam pela estrada principal da cidade. Após algumas investigações, descobre relatos preocupantes de ambientalistas locais sobre a rápida perda de cobertura florestal. Como você se informa sobre a extensão e os impactos do desmatamento na sua região? ."
+        enunciado: "Você percebe movimentos suspeitos de caminhões carregados de madeira que passam pela estrada principal da cidade. Após algumas investigações, descobre relatos preocupantes de ambientalistas locais sobre a rápida perda de cobertura florestal. Como você se informa sobre a extensão e os impactos do desmatamento na sua região? .",
         alternativas: [
             {
-                texto: "Decide investigar pessoalmente, conversando com moradores locais e coletando relatos sobre as atividades de desmatamento."
-",
-                afirmacao: "Conseguiu falar com as outras pessoas da cidade."
+                texto: "Decide investigar pessoalmente, conversando com moradores locais e coletando relatos sobre as atividades de desmatamento.",
+                afirmacao: "Conseguiu falar com as outras pessoas da cidade.",
             },
             {
                 texto: "Reporta imediatamente às autoridades locais para investigação, baseando-se nas informações que coletou.",
@@ -33,41 +32,41 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Ao conversar com os moradores locais, você descobre que muitos estão conscientes do problema, mas têm medo de denunciar. Você decide iniciar uma campanha de conscientização porta a porta para encorajar os moradores a relatar atividades suspeitas às autoridades ambientais e policiais. Quais são suas opções para agir contra o desmatamento ilegal?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Inicia uma campanha de conscientização porta a porta, explicando a importância de relatar atividades suspeitas às autoridades ambientais.",
+                afirmacao: "A campanha funciona e vai com mais força cada vez"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Organiza um protesto na cidade para chamar a atenção das autoridades e da mídia sobre o desmatamento ilegal.",
+                afirmacao: "O protesto poderia dar muito errado."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Durante uma reunião da comunidade, você ouve os relatos dos agricultores sobre as dificuldades econômicas que enfrentam. Compreendendo a necessidade de sustento, você sugere a implementação de práticas agrícolas sustentáveis e programas de agrofloresta como alternativas ao desmatamento, visando preservar tanto o ambiente quanto as fontes de renda. Como você equilibra suas preocupações ambientais com as necessidades econômicas locais?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Propõe a implementação de práticas agrícolas sustentáveis e programas de agrofloresta como alternativas viáveis ao desmatamento.",
+                afirmacao: "Notou também que cada alternativa é uma boa opção."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Incentiva os agricultores a intensificarem o desmatamento controlado como medida temporária para garantir renda, enquanto buscam soluções sustentáveis a longo prazo.",
+                afirmacao: "Cada agricultor é mais motivado a intensificação e da certo."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Você forma um grupo de trabalho com educadores locais e líderes comunitários para desenvolver um programa educativo sobre a importância das florestas tropicais. Juntos, organizam workshops em escolas e distribuem materiais informativos para os moradores, incentivando ações individuais e coletivas para proteger o ambiente. Quais são os passos práticos que você poderia seguir para promover a conscientização e ação dentro da sua comunidade?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Organizam workshops educativos em escolas e eventos comunitários para informar sobre os impactos do desmatamento e as maneiras de preservar a floresta.",
+                afirmacao: "Conseguem informar a todas as pessoas e sistemas educativos para o cuidado do meio ambiente"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Distribuem panfletos informativos nas ruas da cidade, destacando os perigos do desmatamento e incentivando a participação ativa dos moradores na proteção ambiental.",
+                afirmacao: "Que bom! você conseguiu informar á cidade toda, para salvar a floresta, parabéns!"
             }
         ]
     },
