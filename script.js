@@ -28,7 +28,7 @@ const perguntas = [
             },
             {
                 texto: "Reporta imediatamente às autoridades locais para investigação, baseando-se nas informações que coletou.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                afirmacao: "Sentiu medo, do que poderia acontecer."
             }
         ]
     },
