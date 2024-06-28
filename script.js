@@ -6,27 +6,28 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você mora em uma pequena cidade próxima a uma extensa área de floresta tropical. Nos últimos meses, tem notado um aumento alarmante no desmatamento ilegal na região. As árvores centenárias estão sendo derrubadas, e a vida selvagem que antes era abundante está diminuindo rapidamente. Preocupado com o futuro da floresta e seus impactos, você decide agir."
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Muito ruim!",
+                afirmacao: "No início ficou com medo do que o desmatamento pudesse chegar pode fazer. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "O que eu vou fazer agora!",
+                afirmacao: "Quis saber o que fazer agora com esse problema."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Você percebe movimentos suspeitos de caminhões carregados de madeira que passam pela estrada principal da cidade. Após algumas investigações, descobre relatos preocupantes de ambientalistas locais sobre a rápida perda de cobertura florestal. Como você se informa sobre a extensão e os impactos do desmatamento na sua região? ."
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Decide investigar pessoalmente, conversando com moradores locais e coletando relatos sobre as atividades de desmatamento."
+",
+                afirmacao: "Conseguiu falar com as outras pessoas da cidade."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Reporta imediatamente às autoridades locais para investigação, baseando-se nas informações que coletou.",
                 afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
             }
         ]
