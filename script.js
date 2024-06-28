@@ -13,7 +13,7 @@ const perguntas = [
                 afirmacao: "No início ficou com medo do que o desmatamento pudesse chegar pode fazer. "
             },
             {
-                texto: "O que eu vou fazer agora!",
+                texto: "O que eu vou fazer agora?",
                 afirmacao: "Quis saber o que fazer agora com esse problema."
             }
         ]
