@@ -1,9 +1,9 @@
 export const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Depois dele assumir a presidência do país, tive uma migração massiva dos seus moradores, as pessoas não suportavam ficar lá em essas condições.",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Grave",
                 afirmacao: [
                     "No início ficou com medo do que essa tecnologia pode fazer.",
                     "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
@@ -11,7 +11,7 @@ export const perguntas = [
                 proxima: 1,
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Isso é maravilhoso pois vou ficar no país que eu amo",
                 afirmacao: [
                     "Quis saber como usar IA no seu dia a dia.",
                     "Pensou que IA pode ajudar em tarefas da sua vida."
@@ -21,10 +21,10 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Utilizar uma IA pode ser aterrorizante mesmo, e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Você, como não tem o dinheiro suficiente, resolve encontrar um emprego para também migrar. Após você achar o emprego, consigue juntar o dinheiro suficiente.",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Escolhe ficar no pais e Empreender",
                 afirmacao: [
                     "Conseguiu utilizar a IA para buscar informações úteis.",
                     "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
@@ -33,7 +33,7 @@ export const perguntas = [
                 proxima: 3,
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Toma uma coragem e vai na aventura de migrar para outro pais que você não conhece",
                 afirmacao: [
                     "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
                     "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
@@ -67,7 +67,7 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Ferramentas de busca que utilizam IA podem facilitar muito nosso processo de busca por informações. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "O empreendimento está dando certo, consegue clientes, tem boas vendas e o teu salário da para viver bem, mas pela corrupção do governo, o pais se encontra numa crise empresária e não há fornecedores para o teu empreendimento",
         alternativas: [
             {
                 texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
